@@ -1,7 +1,7 @@
 #include "ApiController/ApiController.h"
 
-const char *ssid = "Jupiter";
-const char *pw = "69520405008405358281";
+const char *ssid = "MY_SSID";
+const char *pw = "MY_PASSWORD";
 
 ApiController *apiController = new ApiController();
 
