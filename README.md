@@ -9,6 +9,10 @@ projects increase in complexity.
  - Adjust WIFI credentials in main.cpp
  - Adjust board type in platformio.ini to match your esp32 compatible microcontroller
  - Upload sketch to microcontroller
+ - Navigate to the ip address of the microcontroller and browse the API specification hosted on the device
+ - Its also possible to access route /api.yaml to browse plain yaml specification
+
+ ![image](https://user-images.githubusercontent.com/84862844/226103108-8bf7fbf8-f636-483a-b139-3a79cfb5a9ab.png)
 
 # Configuration
 Create an OpenAPI specification file (yaml) and replace it in ApiSpecification_yaml.h.
